@@ -1,0 +1,31 @@
+{
+  "schema_version":     1,
+  "name":               "ANACONDA",
+  "version":            "2.3.5",
+  "extraVersionInfo": {
+    "fullVersion":        "{2.3.5-Linux-x86_64",
+    "baseVersion":        "2.3.5",
+    "patchCount":         "p0"
+  },
+
+  "depends":            "CDH (>= 5.0)",
+
+  "setActiveSymlink":   true,
+
+  "scripts": {
+    "defines": "conda_env.sh"
+  },
+
+  "packages": [],
+
+  "components": [],
+
+  "provides": [
+     "anaconda" 
+  ],
+
+  "users": { },
+
+  "groups": [ ]
+}
+
